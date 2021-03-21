@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/CEA-react-assignmnet/static/css/main.21431153.chunk.css",
-    "main.js": "/CEA-react-assignmnet/static/js/main.12abfe27.chunk.js",
-    "main.js.map": "/CEA-react-assignmnet/static/js/main.12abfe27.chunk.js.map",
+    "main.js": "/CEA-react-assignmnet/static/js/main.ea97585a.chunk.js",
+    "main.js.map": "/CEA-react-assignmnet/static/js/main.ea97585a.chunk.js.map",
     "runtime-main.js": "/CEA-react-assignmnet/static/js/runtime-main.dbd69119.js",
     "runtime-main.js.map": "/CEA-react-assignmnet/static/js/runtime-main.dbd69119.js.map",
     "static/js/2.fbadc3cf.chunk.js": "/CEA-react-assignmnet/static/js/2.fbadc3cf.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.dbd69119.js",
     "static/js/2.fbadc3cf.chunk.js",
     "static/css/main.21431153.chunk.css",
-    "static/js/main.12abfe27.chunk.js"
+    "static/js/main.ea97585a.chunk.js"
   ]
 }
