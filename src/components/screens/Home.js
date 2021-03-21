@@ -13,7 +13,7 @@ function Home(){
            setPost(result)
          })
         }
-    })
+    },[])
     const searchById = () =>{
       fetch('https://jsonplaceholder.typicode.com/posts?userId='+id)
       .then((response) => response.json())
@@ -38,9 +38,9 @@ function Home(){
         </div>
 
         <div>
-        { post ? post.map(item => {
+        { post ? post.map((item,i) => {
               return(
-                  <Postcard title={item.title} body={item.body} userId={item.userId} /> 
+                  <Postcard title={item.title} body={item.body} userId={item.userId} no={i} /> 
               )
           }) : <div className="center-align" style={{marginTop:"30px"}}><div class="preloader-wrapper big active">
           <div class="spinner-layer spinner-blue-only">

@@ -55,7 +55,7 @@ const dislikePost = () =>{
 }
 
     return(
-    <div className="container ">
+    <div className="container">
 <div class="col s12 m12">
 <div class="card horizontal">
   <div class="card-stacked">
@@ -67,13 +67,13 @@ const dislikePost = () =>{
     <div class="card-action">
     <i className="material-icons " onClick={()=> likePost()} style={{marginLeft:"7px",cursor:"pointer",onclick:"disable"}}>thumb_up</i>
     <i className="material-icons" onClick={()=>dislikePost()} style={{marginLeft:"7px",cursor:"pointer"}}>thumb_down</i>
-    <button className="btn waves-effect waves-light #1e88e5 blue darken-1 right modal-trigger" style={{marginLeft:"7px"}} data-target="modal1"  onClick={()=> updatePost()}>  Update 
+    <button className="btn modal-trigger waves-effect waves-light #1e88e5 blue darken-1 right" style={{marginLeft:"7px"}} data-target={`modal${props.i}`}>  Update 
 
     </button>
-    <button className="btn waves-effect waves-light #1e88e5 red darken-1 right"  onClick={()=> deletePost()}>  Delete 
+    <button className="btn modal-trigger waves-effect waves-light #1e88e5 red darken-1 right"  onClick={()=> deletePost()}>  Delete 
 
     </button>
-    <div id="modal1" class="modal">
+    <div id={`modal${props.i}`} class="modal">
       <div class="modal-content">
       <div className="container center-align" >
       <h2 className="">  update Post </h2>

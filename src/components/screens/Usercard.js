@@ -2,7 +2,7 @@ import React,{useEffect} from 'react';
 function Usercard(props){
   useEffect(()=>{
     console.log(props.detail)
-  })
+  },[])
     return(
         <>
         <div className="container ">

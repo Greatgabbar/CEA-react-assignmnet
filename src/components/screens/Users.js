@@ -10,7 +10,7 @@ function User(){
           setUser(result)
          // console.log(user)
         })
-   })
+   },[])
     return(
         <>
         <h2 className="center-align"> All Users </h2>
