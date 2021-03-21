@@ -13,7 +13,7 @@ function Navbar(){
         <nav>
     <div class="nav-wrapper">
     <Container>
-      <Link to="/" class="brand-logo "  >Testing Blog</Link>
+      <Link to="/home" class="brand-logo "  >Testing Blog</Link>
       </Container>
       <Link  data-target="mobile-demo" className="right sidenav-trigger"><i class="material-icons">menu</i></Link>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
