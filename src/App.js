@@ -12,7 +12,7 @@ const Routing = () => {
  
   return (
     <Switch>
-    <Route exact path='/home'> <Home /> </Route>
+    <Route exact path='/'> <Home /> </Route>
     <Route  path='/user'> <User /> </Route>
     <Route  path='/create'> <CreatePost /> </Route>
     <Route  path='/update'> <Update /> </Route>
